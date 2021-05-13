@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Excitement is Building",
+        "subtitle": "It won't be long",
+        "image": "/assets/img/slider/single-slide-imagine1.jpg",
+        "url": "/shop-grid-standard"
+    },
+    {
+        "id": 2,
+        "title": "Creative Designs",
+        "subtitle": "Shirts, Signs & Designs",
+        "image": "/assets/img/slider/single-slide-mystery2.jpg",
+        "url": "/shop-grid-standard"
+    }
+]
