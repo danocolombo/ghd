@@ -1,26 +1,26 @@
 [
-    {
-        "id": 1,
-        "image": "/assets/img/icon-img/picture.png",
-        "title": "Wall Scriptures",
-        "subtitle": "Your favorite scriptures"
-    },
-    {
-        "id": 2,
-        "image": "/assets/img/icon-img/shirt.png",
-        "title": "Custom Shirts",
-        "subtitle": "Sharing your heart"
-    },
-    {
-        "id": 3,
-        "image": "/assets/img/icon-img/mug.png",
-        "title": "Cups & Tumblers",
-        "subtitle": "Express Yourself"
-    },
-    {
-        "id": 4,
-        "image": "/assets/img/icon-img/lightbulb.png",
-        "title": "Your Imagination",
-        "subtitle": "comes to life"
-    }
+  {
+    "id": 1,
+    "image": "/assets/img/icon-img/shirt.png",
+    "title": "Custom Shirts",
+    "subtitle": "Sharing your heart"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/icon-img/picture.png",
+    "title": "Wall Scriptures",
+    "subtitle": "Your favorite scriptures"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/icon-img/mug.png",
+    "title": "Cups & Tumblers",
+    "subtitle": "Express Yourself"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/icon-img/lightbulb.png",
+    "title": "Your Imagination",
+    "subtitle": "comes to life"
+  }
 ]

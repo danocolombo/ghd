@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Stylish",
+    "subtitle": "Variety",
+    "text": "Your message, your way",
+    "image": "/assets/img/slider/single-slide-2.png",
+    "url": "/shop-grid-standard",
+    "shapeImage": "/assets/img/icon-img/slider-shape.png",
+    "shapeTitle": "Sale",
+    "shapeSubtitle": "$9.99"
+  },
+  {
+    "id": 2,
+    "title": "Stylish",
+    "subtitle": "Female Clothes",
+    "text": "20% off Summer Vacation",
+    "image": "/assets/img/slider/single-slide-7.png",
+    "url": "/shop-grid-standard",
+    "shapeImage": "/assets/img/icon-img/slider-shape.png",
+    "shapeTitle": "Sale",
+    "shapeSubtitle": "$9.99"
+  }
+]

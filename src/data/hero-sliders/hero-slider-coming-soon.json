@@ -3,14 +3,14 @@
     "id": 1,
     "title": "Excitement is Building",
     "subtitle": "It won't be long",
-    "image": "/assets/img/product/shirts/shirt1.jpeg",
+    "image": "/assets/img/product/ghd-shirts/shirt1.jpeg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
     "title": "Creative Designs",
     "subtitle": "Shirts, Signs & Designs",
-    "image": "/assets/img/slider/single-slide-mystery2.jpg",
+    "image": "/assets/img/product/ghd-framed-creations/framed1.jpg",
     "url": "/shop-grid-standard"
   }
 ]

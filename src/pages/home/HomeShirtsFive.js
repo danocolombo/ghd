@@ -5,8 +5,9 @@ import TabProductSeven from "../../wrappers/product/TabProductSeven";
 import Newsletter from "../../wrappers/newsletter/Newsletter";
 import BannerTen from "../../wrappers/banner/BannerShirts";
 import HeroSliderThirteen from "../../wrappers/hero-slider/HeroSliderThirteen";
+import HeroSliderShirts from "../../wrappers/hero-slider/HeroSliderShirts";
 
-const HomeFashionFive = () => {
+const HomeShirtsFive = () => {
   return (
     <Fragment>
       <MetaTags>
@@ -41,4 +42,4 @@ const HomeFashionFive = () => {
   );
 };
 
-export default HomeFashionFive;
+export default HomeShirtsFive;
