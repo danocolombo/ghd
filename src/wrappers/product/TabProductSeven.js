@@ -10,7 +10,7 @@ const TabProductSeven = ({
   spaceBottomClass,
   category,
   containerClass,
-  extraClass
+  extraClass,
 }) => {
   return (
     <div
@@ -19,15 +19,15 @@ const TabProductSeven = ({
       }`}
     >
       <div className={`${containerClass ? containerClass : "container"}`}>
-        <SectionTitle titleText="DAILY DEALS!" positionClass="text-center" />
+        <SectionTitle titleText="SPECIALS!" positionClass="text-center" />
         <Tab.Container defaultActiveKey="bestSeller">
           <Nav
             variant="pills"
             className="product-tab-list pt-30 pb-55 text-center"
           >
             <Nav.Item>
-              <Nav.Link eventKey="newArrival">
-                <h4>New Arrivals</h4>
+              <Nav.Link eventKey="newDesigns">
+                <h4>New Designs</h4>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -36,8 +36,8 @@ const TabProductSeven = ({
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="saleItems">
-                <h4>Sale Items</h4>
+              <Nav.Link eventKey="specials">
+                <h4>Specials</h4>
               </Nav.Link>
             </Nav.Item>
           </Nav>
@@ -91,7 +91,7 @@ TabProductSeven.propTypes = {
   category: PropTypes.string,
   containerClass: PropTypes.string,
   extraClass: PropTypes.string,
-  spaceBottomClass: PropTypes.string
+  spaceBottomClass: PropTypes.string,
 };
 
 export default TabProductSeven;

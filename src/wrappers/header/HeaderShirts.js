@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../components/header/Logo";
 import IconGroup from "../../components/header/IconGroup";
 import MobileMenu from "../../components/header/MobileMenu";
-import NavMenu from "../../components/header/NavMenu";
+import NavMenu from "../../components/header/NavMenuGHD";
 
 const HeaderFive = () => {
   return (
@@ -11,12 +11,13 @@ const HeaderFive = () => {
         {/* header logo */}
         <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
         {/* Icon group */}
-        <IconGroup />
+        {/* <IconGroup /> */}
         {/* sidebar nav menu */}
         <NavMenu sidebarMenu={true} />
         <div className="sidebar-copyright">
           <p>
-            ©2021{" "}
+            ©2021
+            <br />
             <a
               href="//www.hasthemes.com"
               target="_blank"
@@ -24,7 +25,8 @@ const HeaderFive = () => {
             >
               Gracious Heart Designs
             </a>
-            .All Rights Reserved.
+            .<br />
+            All Rights Reserved.
           </p>
         </div>
       </div>

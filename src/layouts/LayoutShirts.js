@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
-import HeaderFive from "../wrappers/header/HeaderFive";
+import HeaderShirts from "../wrappers/header/HeaderShirts";
 import FooterOne from "../wrappers/footer/FooterGHD";
 
 const LayoutSix = ({ children }) => {
   return (
     <Fragment>
-      <HeaderFive />
+      <HeaderShirts />
       <div className="home-sidebar-right">
         {children}
         <FooterOne
