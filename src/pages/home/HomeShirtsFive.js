@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import LayoutSix from "../../layouts/LayoutShirts";
-import TabProductSeven from "../../wrappers/product/TabProductSeven";
+import TabProductShirts from "../../wrappers/product/TabProductShirts";
 import Newsletter from "../../wrappers/newsletter/Newsletter";
-import BannerTen from "../../wrappers/banner/BannerShirts";
+import BannerShirts from "../../wrappers/banner/BannerShirts";
 import HeroSliderThirteen from "../../wrappers/hero-slider/HeroSliderThirteen";
 import HeroSliderShirts from "../../wrappers/hero-slider/HeroSliderShirts";
 
@@ -19,11 +19,11 @@ const HomeShirtsFive = () => {
       </MetaTags>
       <LayoutSix>
         {/* hero slider */}
-        <HeroSliderThirteen />
+        <HeroSliderShirts />
         {/* banner */}
-        <BannerTen spaceTopClass="pt-10" spaceBottomClass="pb-85" />
+        <BannerShirts spaceTopClass="pt-10" spaceBottomClass="pb-85" />
         {/* tab product */}
-        <TabProductSeven
+        <TabProductShirts
           spaceBottomClass="pb-100"
           category="accessories"
           containerClass="container-fluid"

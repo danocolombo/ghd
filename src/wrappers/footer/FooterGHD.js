@@ -68,6 +68,20 @@ const FooterTwo = ({
                         Using the gracious heart with visions of hope,
                         inspiration and love.
                     </p>
+                        <p>
+                            ©2021
+                            <br />
+                            <a
+                            href="//www.hasthemes.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            Gracious Heart Designs
+                            </a>
+                            .<br />
+                            All Rights Reserved.
+                        </p>
+                    
                 </div>
             </div>
             <div className='footer-bottom text-center'>

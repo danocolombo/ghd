@@ -14,21 +14,7 @@ const HeaderFive = () => {
         {/* <IconGroup /> */}
         {/* sidebar nav menu */}
         <NavMenu sidebarMenu={true} />
-        <div className="sidebar-copyright">
-          <p>
-            ©2021
-            <br />
-            <a
-              href="//www.hasthemes.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Gracious Heart Designs
-            </a>
-            .<br />
-            All Rights Reserved.
-          </p>
-        </div>
+        
       </div>
       <header className="header-area header-padding-1 sticky-bar header-res-padding clearfix header-hm4-none">
         <div className="container-fluid">

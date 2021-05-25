@@ -1,6 +1,6 @@
 import React from "react";
-import bannerData from "../../data/banner/banner-ten.json";
-import BannerTenSingle from "../../components/banner/BannerTenSingle.js";
+import bannerData from "../../data/banner/banner-shirts.json";
+import BannerShirtSingle from "../../components/banner/BannerShirtSingle.js";
 
 const BannerTen = ({ spaceTopClass, spaceBottomClass }) => {
   return (
@@ -14,7 +14,7 @@ const BannerTen = ({ spaceTopClass, spaceBottomClass }) => {
           {bannerData &&
             bannerData.map((single, key) => {
               return (
-                <BannerTenSingle
+                <BannerShirtSingle
                   spaceBottomClass="mb-10"
                   data={single}
                   key={key}
