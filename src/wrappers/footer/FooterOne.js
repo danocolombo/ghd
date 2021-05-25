@@ -11,7 +11,7 @@ const FooterOne = ({
   spaceBottomClass,
   containerClass,
   extraFooterClass,
-  sideMenu
+  sideMenu,
 }) => {
   const [scroll, setScroll] = useState(0);
   const [top, setTop] = useState(0);
@@ -48,6 +48,8 @@ const FooterOne = ({
             }`}
           >
             {/* footer copyright */}
+            {/* GHD logo */}
+            {/* /assets/img/logo/logo.png */}
             <FooterCopyright
               footerLogo="/assets/img/logo/logo.png"
               spaceBottomClass="mb-30"
@@ -126,11 +128,13 @@ const FooterOne = ({
               sideMenu ? "col-xl-3 col-sm-4" : "col-lg-2 col-sm-6"
             }`}
           >
-            <div className={`${
+            <div
+              className={`${
                 sideMenu
                   ? "footer-widget mb-30 ml-145"
                   : "footer-widget mb-30 ml-75"
-              }`}>
+              }`}
+            >
               <div className="footer-title">
                 <h3>FOLLOW US</h3>
               </div>
@@ -182,7 +186,11 @@ const FooterOne = ({
             }`}
           >
             {/* footer newsletter */}
-            <FooterNewsletter spaceBottomClass="mb-30" spaceLeftClass="ml-70" sideMenu={sideMenu} />
+            <FooterNewsletter
+              spaceBottomClass="mb-30"
+              spaceLeftClass="ml-70"
+              sideMenu={sideMenu}
+            />
           </div>
         </div>
       </div>
@@ -202,7 +210,7 @@ FooterOne.propTypes = {
   extraFooterClass: PropTypes.string,
   sideMenu: PropTypes.bool,
   spaceBottomClass: PropTypes.string,
-  spaceTopClass: PropTypes.string
+  spaceTopClass: PropTypes.string,
 };
 
 export default FooterOne;

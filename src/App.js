@@ -10,6 +10,7 @@ import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 // home pages
 const HomeGHD = lazy(() => import("./pages/home/HomeGHD"));
 const HomeShirts = lazy(() => import("./pages/home/HomeShirtsFive"));
+const ShirtsList = lazy(() => import("./pages/shop/ShirtListTwoRows"));
 const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
 const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
 const HomeFashionThree = lazy(() => import("./pages/home/HomeFashionThree"));
@@ -128,6 +129,11 @@ const App = (props) => {
                   exact
                   path={process.env.PUBLIC_URL + "/shirts"}
                   component={HomeShirts}
+                />
+                <Route
+                  exact
+                  path={process.env.PUBLIC_URL + "/shirts2"}
+                  component={ShirtsList}
                 />
                 <Route
                   exact

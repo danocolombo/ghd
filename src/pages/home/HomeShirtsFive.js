@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
-import LayoutSix from "../../layouts/LayoutShirts";
+import LayoutSix from "../../layouts/LayoutSix";
 import TabProductShirts from "../../wrappers/product/TabProductShirts";
 import Newsletter from "../../wrappers/newsletter/Newsletter";
 import BannerShirts from "../../wrappers/banner/BannerShirts";
