@@ -1,101 +1,65 @@
 [
   {
     "id": "1",
-    "sku": "asdf123",
-    "name": "Lorem ipsum jacket",
-    "price": 12.45,
-    "discount": 10,
-    "offerEnd": "October 5, 2020 12:11:00",
+    "sku": "ghd-a-1",
+    "name": "Teacher Bag",
+    "price": 10,
+    "discount": 15,
+    "offerEnd": "September 1, 2021 00:00:00",
     "new": false,
     "rating": 4,
     "saleCount": 54,
-    "category": ["fashion", "men"],
-    "tag": ["fashion", "men", "jacket", "full sleeve"],
+    "category": ["accessories", "bags"],
+    "tag": ["books", "bag", "teacher", "custom"],
     "variation": [
       {
-        "color": "white",
+        "color": "black",
         "image": "/assets/img/product/fashion/1.jpg",
         "size": [
           {
             "name": "x",
             "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
           }
         ]
       },
       {
-        "color": "black",
+        "color": "red",
         "image": "/assets/img/product/fashion/8.jpg",
         "size": [
           {
             "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
+            "stock": 3
           }
         ]
       },
       {
-        "color": "brown",
+        "color": "blue",
         "image": "/assets/img/product/fashion/3.jpg",
         "size": [
           {
             "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 0
+            "stock": 3
           }
         ]
       }
     ],
     "image": [
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/ghd-accessories/accessory-list-1.png"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Custom book bag to show opportunity.",
+    "fullDescription": "We have a variety of colors to mix and match. Use them to give thanks to that special teacher."
   },
   {
     "id": "2",
-    "sku": "asdf124",
-    "name": "Lorem ipsum coat",
-    "price": 18.5,
-    "discount": 15,
+    "sku": "ghd-a-2",
+    "name": "She Believed",
+    "price": 10,
+    "discount": 0,
     "new": false,
     "rating": 3,
     "saleCount": 12,
-    "category": ["fashion", "women"],
-    "tag": ["fashion", "women", "coat", "full sleeve"],
+    "category": ["accessories", "bags"],
+    "tag": ["accessory", "books", "tote", "bag"],
     "variation": [
       {
         "color": "blue",
@@ -104,14 +68,6 @@
           {
             "name": "x",
             "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 6
-          },
-          {
-            "name": "xl",
-            "stock": 7
           }
         ]
       },
@@ -121,19 +77,7 @@
         "size": [
           {
             "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 8
-          },
-          {
-            "name": "xl",
             "stock": 3
-          },
-          {
-            "name": "xxl",
-            "stock": 7
           }
         ]
       },
@@ -144,118 +88,33 @@
           {
             "name": "x",
             "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 0
-          },
-          {
-            "name": "xxl",
-            "stock": 7
           }
         ]
       }
     ],
     "image": [
-      "/assets/img/product/fashion/2.jpg",
-      "/assets/img/product/fashion/4.jpg",
-      "/assets/img/product/fashion/5.jpg",
-      "/assets/img/product/fashion/7.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/ghd-accessories/accessory-list-2.png"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Take this bag and encourage and inspire at the same time",
+    "fullDescription": "You can mix and match colors to give to the whole team or squad. Let them know you seen their hard work."
   },
 
   {
     "id": "3",
-    "sku": "asdf125",
-    "name": "Lorem ipsum jacket",
-    "price": 17.45,
-    "discount": 40,
-    "offerEnd": "October 2, 2020 12:11:00",
+    "sku": "ghd-a-3",
+    "name": "Jewelry dish",
+    "price": 10,
+    "discount": 0,
     "new": true,
     "rating": 5,
     "saleCount": 36,
-    "category": ["fashion", "men"],
-    "tag": ["fashion", "men", "jacket", "full sleeve"],
-    "variation": [
-      {
-        "color": "white",
-        "image": "/assets/img/product/fashion/1.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "image": "/assets/img/product/fashion/8.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
-          }
-        ]
-      },
-      {
-        "color": "brown",
-        "image": "/assets/img/product/fashion/3.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 0
-          }
-        ]
-      }
-    ],
+    "category": ["accessories"],
+    "tag": ["jewelry", "monogram"],
     "image": [
-      "/assets/img/product/fashion/3.jpg",
-      "/assets/img/product/fashion/1.jpg",
-      "/assets/img/product/fashion/6.jpg",
-      "/assets/img/product/fashion/8.jpg",
-      "/assets/img/product/fashion/9.jpg"
+      "/assets/img/product/ghd-accessories/accessory-list-3.png"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Add a touch a class to that vanity.",
+    "fullDescription": "A monogramme jewelery dish shows significance and honor. Get those rings off the counter and let the rest in style."
   },
   {
     "id": "4",
